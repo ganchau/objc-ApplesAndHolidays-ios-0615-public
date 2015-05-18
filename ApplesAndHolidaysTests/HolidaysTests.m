@@ -95,7 +95,7 @@ describe(@"HolidaysSpec", ^{
             expect(modifiedHolidaySupplies[@"winter"][@"christmas"][2]).to.equal(@"Tree");
             
             expect(invalidHolidaySupplies).to.equal([FISAppDelegate holidaySupplies]);
-            
+    
         });
     });
     
